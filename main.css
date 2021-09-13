@@ -1,0 +1,85 @@
+.head{
+    width: 300px;
+    height: 200px;
+    background: rgb(155, 140, 140);
+    border-radius: 200px / 150px;
+    position: relative;
+    top: 300px;
+    left: 300px;
+}
+
+.left-eye{
+    width: 76px;
+    height: 76px;
+    border: solid 1px black;
+    border-radius: 38px;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    top: 60px;
+    left: 15px;
+}
+
+.right-eye{
+    width: 76px;
+    height: 76px;
+    border: solid 1px black;
+    border-radius: 38px;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    bottom: 18px;
+    left: 210px;
+}
+
+.pupil{
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 25px;
+    background-color: black;
+    position: relative;
+    top: 13px;
+    left: 12px;
+}
+
+.face1{
+    width: 100px;
+    height: 100px;
+    background: rgb(155, 140, 140);
+    border-radius: 50px;
+    position: relative;
+    bottom: 40px;
+}
+
+.face2{
+    width: 100px;
+    height: 100px;
+    background: rgb(155, 140, 140);
+    border-radius: 50px;
+    position: relative;
+    left: 200px;
+    bottom: 140px;
+}
+
+.nose{
+    width: 134px;
+    height: 60px;
+    border: solid 1px rgb(31, 18, 18);
+    background-color:rgb(31, 18, 18);
+    border-radius: 60px / 30px;
+    position: relative;
+    bottom: 235px;
+    left: 80px;
+}
+
+.tongue{
+    width: 75px;
+    height: 25px;
+    border: solid 1px salmon;
+    background-color: salmon;
+    border-radius: 0 0 45px 45px;
+    position: relative;
+    bottom: 220px;
+    left: 112px;
+}
